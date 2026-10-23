@@ -26,5 +26,5 @@ scripts/bump-formula.sh <version>     # e.g. 0.1.0-alpha.2
 git commit -am "reminders <version>" && gh pr create --fill
 ```
 
-The script reads the release's `.sha256`, checks it against the downloaded tarball, and updates `version`, `url`
-and `sha256` in `Formula/reminders.rb`. Bumps go through pull requests.
+The script reads the release's `.sha256`, checks it against the downloaded tarball, and updates `url` and `sha256`
+in `Formula/reminders.rb` (Homebrew reads the version from the url). Bumps go through pull requests.
