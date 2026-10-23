@@ -1,8 +1,8 @@
 class Reminders < Formula
   desc "Fast native CLI and MCP server for Apple Reminders"
   homepage "https://github.com/neo-the-on3/reminders"
-  url "https://github.com/neo-the-on3/reminders/releases/download/v0.1.0-alpha.1/reminders-0.1.0-alpha.1-macos-universal.tar.gz"
-  sha256 "3be92137069159e1517f04a0124883a4a78554288b2b4c6ac2271282b77de08d"
+  url "https://github.com/neo-the-on3/reminders/releases/download/v0.1.0-alpha.2/reminders-0.1.0-alpha.2-macos-universal.tar.gz"
+  sha256 "89e0b2d32430ed858320e4466be1d3bbf477f9be167bb6293142efbca62307cf"
   license "MIT"
 
   depends_on macos: :tahoe
